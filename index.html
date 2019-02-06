@@ -14,6 +14,12 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
 
     <!----------------------------------------------------------
@@ -33,9 +39,10 @@ thank you
   </head>
   <body>
     <nav
-      class="navbar sticky-top navbar-expand-lg navbar-dark bg-marriage-dark"
+      id="main-navbar"
+      class="navbar sticky-top navbar-expand-lg navbar-dark bg-marriage-balais"
     >
-      <a class="navbar-brand" href="#">#EkambisWedding</a>
+      <a class="navbar-brand" href="#">#HereComesTheEkambis</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -48,7 +55,7 @@ thank you
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="main-navbar">
+      <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#welcome"
@@ -71,15 +78,28 @@ thank you
       </div>
     </nav>
     <div data-spy="scroll" data-target="#main-navbar" data-offset="0">
-      <div id="welcome" class="jumbotron paral paral-marriage"></div>
-      <div id="programme" class="jumbotron paral paral-marriage"></div>
-      <div id="story" class="jumbotron paral paral-marriage"></div>
+      <div
+        id="welcome"
+        class="h-100 d-flex jumbotron paral paral-marriage justify-content-center align-self-center"
+        style="color: black"
+      >
+        <!-- <p class="lead justify-content-center align-self-center"> -->
+        <h1>Julie <i class="fa fa-heart"></i>Sammy</h1>
+        <!-- </p> -->
+        <!-- <p class="lead">Samedi, 23 September 2017, 15h00 RSVP</p>
+        <p class="lead">Jardins les PALETUVIERS MATANDA, Douala, Cameroun</p>
+        <p class="lead">JJ - <span id="numberOfDays"></span>!</p> -->
+      </div>
+
+      <div id="programme" class="jumbotron paral paralsec1"></div>
+
+      <div id="story" class="jumbotron paral paralsec1"></div>
       <div id="marriage" class="jumbotron paral paral-marriage"></div>
-      <div id="lieu" class="jumbotron paral paral-marriage"></div>
+      <div id="lieu" class="jumbotron paral paralsec1"></div>
     </div>
     <!-- <div class="jumbotron paral paral-marriage" id="welcome">
         <h1 class="display-3">Bienvenue dans notre monde!</h1>
-        <p class="lead">JJ - <span id="numberOfDays"></span></p>
+
         <P class="lead"
           >Nous avions souhaité pouvoir vous fournir quelques informations
           utiles afin de faciliter votre organisation pour participer au Tome 2
