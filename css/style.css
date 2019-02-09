@@ -18,7 +18,7 @@ body {
   min-height: 600px;
   background-attachment: fixed;
   background-size: cover;
-  background-position: 0% 0%;
+  background-position: 20% -10%;
 }
 
 /* Paragrapgh for Parallax Section */
@@ -31,11 +31,14 @@ body {
 
 /* Heading for Parallax Section */
 .paral h1 {
+  text-align: center;
+  line-height: 100px;
+}
+
+.main-h1-size {
   color: rgb(255, 255, 255);
   font-size: 100px;
-  text-align: center;
   padding-top: 250px;
-  line-height: 100px;
 }
 
 /* Image for Parallax Section */
