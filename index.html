@@ -21,26 +21,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
-
-    <!----------------------------------------------------------
-      music playing
-slideshow of photos
-the wedding party
-letters from each of them
-travel and accommodations
-wedding events
-registry
-wall - so anyone can post
-timeline of events (proposal, bridal shower, engagement party, wedding etc)
-thank you
-
---------------------------------------------------------->
-    <style></style>
   </head>
   <body>
     <nav
       id="main-navbar"
       class="navbar sticky-top navbar-expand-lg navbar-dark bg-marriage-balais"
+      style="text-align: center;"
     >
       <a class="navbar-brand" href="#">#HereComesTheEkambis</a>
       <button
@@ -56,269 +42,46 @@ thank you
       </button>
 
       <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#welcome"
-              >Acceuil <span class="sr-only">(current)</span></a
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active text-center">
+            <a class="nav-link" href="#marriage"
+              >Marriage <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#programme">Programme de la Journée</a>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#acceuil">Acceuil</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#story">Our Love Story</a>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#program">Programme de la Journée</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#histoire">Notre Histoire</a>
+          </li>
+          <li class="nav-item text-center">
             <a class="nav-link" href="#marriage">Mariage</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item text-center">
             <a class="nav-link" href="#lieu">Lieu</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#liste-de-cadeau">Liste Des Cadeaux</a>
           </li>
         </ul>
       </div>
     </nav>
     <div data-spy="scroll" data-target="#main-navbar" data-offset="0">
-      <div
-        id="welcome"
-        class="h-100 d-flex jumbotron paral paral-marriage justify-content-center align-self-center"
-        style="color: black"
-      >
-        <!-- <p class="lead "> -->
-        <h1 class="main-h1-size">Julie <i class="fa fa-heart"></i> Sammy</h1>
-        <!-- </p> -->
-      </div>
-
-      <div
-        id="programme"
-        class="jumbotron paral paralsec1 justify-content-center align-self-center"
-      >
-        <p class="lead">
-          <i class="fa fa-heart"></i> Samedi, 23 September 2017, 15h00 RSVP
-        </p>
-        <p class="lead">
-          <i class="fa fa-heart"></i> Jardins les PALETUVIERS MATANDA, Douala,
-          Cameroun
-        </p>
-        <p class="lead">
-          <i class="fa fa-heart"></i> JJ - <span id="numberOfDays"></span>!
-        </p>
-      </div>
-
-      <!-- <div id="story" class="jumbotron paral paralsec1"></div> -->
-      <div id="marriage" class="jumbotron paral paral-marriage"></div>
-      <div id="lieu" class="jumbotron paral paralsec1"></div>
+      <div id="marriage"></div>
+      <div id="acceuil"></div>
+      <div id="program"></div>
+      <div id="histoire"></div>
+      <div id="marriage"></div>
+      <div id="lieu"></div>
+      <div id="liste-de-cadeau"></div>
     </div>
-    <!-- <div class="jumbotron paral paral-marriage" id="welcome">
-        <h1 class="display-3">Bienvenue dans notre monde!</h1>
-
-        <P class="lead"
-          >Nous avions souhaité pouvoir vous fournir quelques informations
-          utiles afin de faciliter votre organisation pour participer au Tome 2
-          de notre mariage. Votre présence à cet évènement sera réellement un
-          symbole d’amour marquant pour la suite de notre belle histoire, et
-          nous espérons que vos allers-retours/voyages se feront sans
-          complications. Si vous devez vous plaindre de courbatures dès le
-          lendemain, ce serait super que ce soit uniquement dû à l'expression de
-          votre joie débordante tout au long de cette belle journée. Nous
-          frémissons de joie à l'idée de vous compter parmi nous! The
-          Ekambi’s</P
-        >
-        <p class="lead">
-          <a
-            class="btn btn-warning btn-lg btn-md"
-            href="widgets.html"
-            role="button"
-            >Here is a button 2</a
-          >
-        </p>
-      </div>
-
-      <div class="jumbotron paral paralsec">
-        <h1 class="display-3">Bienvenue dans notre monde!</h1>
-        <p class="lead">
-          Lieux Jardins les PALETUVIERS MATANDA situé à 800 m du rond-point
-          Bonassama, à l’entrée de Bonabéri. Ils sont faciles d’accès. La
-          cérémonie religieuse et le cocktail se tiendront dans les jardins.
-          Nous vous y attendrons à partir de 10h 00.
-        </p>
-        <p class="lead">
-          <a class="btn btn-info btn-lg btn-md" href="#" role="button"
-            >Here is a button 1</a
-          >
-        </p>
-      </div>
-
-      <div class="jumbotron paral paralsec1">
-        <h1 class="display-3">Here is a heading 2</h1>
-        <p class="lead">
-          Chères invitées, chers invités, Nous souhaitons également attirer
-          votre attention sur l'heure de début de la cérémonie. Nous voudrions
-          pouvoir débuter la cérémonie à 11h00 précises, afin d’éviter à
-          certains de nos chaleureux convives des bains de soleil
-          interminables…A cet effet, nous vous prions d'arriver au plus tard à
-          10h15 afin que le protocole d'organisation puisse avoir suffisamment
-          de temps pour vous orienter et vous installer. Ceci permettra
-          également de déployer rapidement des solutions à d'éventuels imprévus.
-          La cérémonie se déroulera en plein air, dans les jardins des
-          PALETUVIERS –MATANDA à l’entrée de Bonabéri. Vous conviendrez avec
-          nous qu'il serait regrettable de débuter cette fête avec des vêtements
-          trempés par de la transpiration. Le succès de cet évènement commence
-          par votre ponctualité ! Pour ceux qui ont des enfants en bas âges,
-          seuls les enfants âgés de 6 ans ou moins, pourront accompagner leurs
-          parents. Il nous est difficile de les compter parmi nous, compte tenu
-          de l'organisation mise en place. Nous espérons que vous comprendrez et
-          que vous respecterez cela. Par la même occasion, veuillez préciser si
-          votre enfant (06 ans au moins) est allergique à l'alcool :-)
-        </p>
-        <p class="lead">
-          <a
-            class="btn btn-warning btn-lg btn-md"
-            href="widgets.html"
-            role="button"
-            >Here is a button 2</a
-          >
-        </p>
-      </div>
-
-      <div class="jumbotron paral paralsec">
-        <h1 class="display-3">Bienvenue dans notre monde!</h1>
-        <p class="lead">
-          OUR LOVE STORY Un signe, encore un signe… puis un autre…… Au cœur des
-          mots, s’est écrit Notre histoire d’amour !!! 13 Mai 2013 : Un vol
-          Royal Air Maroc : Un gars, Une fille…Là où tout a commencé 14 Février
-          2015 : Officialisation de la team « Ekambi’S » 02 Juin 2015 : Nous
-          sommes devenus parents 21 Décembre 2019 : Bénédiction de la team «
-          Ekambi’S » devant Dieu et vous… « Etre proche de quelqu’un qui te rend
-          heureuse c’est bien, mais être proche de quelqu’un qui ne peut pas
-          être heureux sans toi…c’est mieux »
-        </p>
-        <p class="lead">
-          <a class="btn btn-info btn-lg btn-md" href="#" role="button"
-            >Here is a button 1</a
-          >
-        </p>
-      </div>
-
-      <div class="jumbotron paral paralsec1">
-        <h1 class="display-3">Here is a heading 2</h1>
-        <p class="lead">
-          Nos couleurs : Rose pâle (vieux rose) & Greenery (vert nature) Dress
-          Code : Tenue de Cocktail Lieu : Jardins les PALETUVIERS MATANDA –
-          Bonabéri (Bonassama)
-        </p>
-        <p class="lead">
-          <a
-            class="btn btn-warning btn-lg btn-md"
-            href="widgets.html"
-            role="button"
-            >Here is a button 2</a
-          >
-        </p>
-      </div>
-
-      <div class="jumbotron paral paralsec">
-        <h1 class="display-3">Bienvenue dans notre monde!</h1>
-        <p class="lead">
-          PROGRAMME DE LA JOURNEE 10h : Arrivée des invités et Installation 10h
-          30 : Entrée des Demoiselles et Garçons d’honneur 10h 45 : Entrée des
-          pasteurs 10h 50 : Entrée du Marié et sa Maman 10h 55 : Entrée de la
-          mariée et son papa 11h 00 : Début de la cérémonie 12h 45 : Fin de la
-          cérémonie 13h 00 : Séance Photos et Apéritif Musical 14h 30 : Début du
-          Cocktail
-        </p>
-        <p class="lead">
-          <a class="btn btn-info btn-lg btn-md" href="#" role="button"
-            >Here is a button 1</a
-          >
-        </p>
-      </div>
-
-      <div class="jumbotron paral paralsec1">
-        <h1 class="display-3">Here is a heading 2</h1>
-        <p class="lead">Here is a short description 2</p>
-        <p class="lead">
-          <a
-            class="btn btn-warning btn-lg btn-md"
-            href="widgets.html"
-            role="button"
-            >Here is a button 2</a
-          >
-        </p>
-      </div>
-
-      <div class="jumbotron paral paralsec">
-        <h1 class="display-3">Bienvenue dans notre monde!</h1>
-        <p class="lead">
-          Mariage Samedi, 21 Décembre 2019 à 11h 00 Jardins les PALETUVIERS –
-          MATANDA à Bonabéri
-        </p>
-        <p class="lead">
-          <a class="btn btn-info btn-lg btn-md" href="#" role="button"
-            >Here is a button 1</a
-          >
-        </p>
-      </div>
-
-      <div class="jumbotron paral paralsec1">
-        <h1 class="display-3">Here is a heading 2</h1>
-        <p class="lead">
-          LISTE DES CADEAUX Nous n’avons pas de liste de cadeaux.
-        </p>
-        <p class="lead">
-          <a
-            class="btn btn-warning btn-lg btn-md"
-            href="widgets.html"
-            role="button"
-            >Here is a button 2</a
-          >
-        </p>
-      </div> -->
-    <!-- First Parallax Section -->
-    <!-- <div class="jumbotron paral paralsec" id="welcome">
-        <h1 class="display-3">Here is a heading 1</h1>
-        <p class="lead">Here is a short description 1</p>
-        <p class="lead">
-          <a class="btn btn-info btn-lg btn-md" href="#" role="button"
-            >Here is a button 1</a
-          >
-        </p>
-      </div> -->
-    <!-- Third Parallax Section -->
-    <!-- <div class="jumbotron paral paralsec2">
-        <h1 class="display-3">Here is a heading 3</h1>
-        <p class="lead">Here is a short description 2</p>
-        <p class="lead">
-          <a
-            class="btn btn-primary btn-lg btn-md"
-            href="themes.html"
-            role="button"
-            >Here is a button 3</a
-          >
-        </p>
-      </div> -->
-
-    <!-- <div class="jumbotron paral paralsec2">
-        <h1 class="display-3">Here is a heading 3</h1>
-        <p class="lead">Here is a short description 2</p>
-        <p class="lead">
-          <a
-            class="btn btn-primary btn-lg btn-md"
-            href="themes.html"
-            role="button"
-            >Here is a button 3</a
-          >
-        </p>
-      </div> -->
-
-    <!-- Add More Parallax Sections Here -->
-    <!-- Footer Section -->
     <footer class="wn-footer">
+      <p></p>
       <p>
-        Created With love By:
-        <a href="https://www.ronaldekambi.com/">Ronald</a>
-      </p>
-      <p>
-        <a href="#">Back to top</a>
+        <a href="#"> <i class="fa fa-chevron-up"></i> Back to top</a>
       </p>
     </footer>
     <!-- Bootstrap 4 Scripts -->

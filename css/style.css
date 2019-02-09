@@ -18,7 +18,7 @@ body {
   min-height: 600px;
   background-attachment: fixed;
   background-size: cover;
-  background-position: 20% -10%;
+  /* background-position: 20% -10%; */
 }
 
 /* Paragrapgh for Parallax Section */
@@ -45,6 +45,12 @@ body {
 .paral-marriage {
   background-image: url("../img/family2.jpeg");
   min-height: 600px;
+  background-position: 20% -10%;
+}
+
+.paral-liste-cadeau {
+  background-image: url("../img/family.jpeg");
+  min-height: 350px;
 }
 .paralsec {
   background-image: url("https://img.webnots.com/2017/05/parallax.jpg");
@@ -73,4 +79,9 @@ body {
 }
 
 .wn-footer a {
+  color: white;
+}
+
+.wn-footer a:hover {
+  text-decoration: underline;
 }
