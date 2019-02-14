@@ -1,70 +1,7 @@
-body {
-  color: #f5f5f5;
-}
-.bg-marriage-balais {
-  background-color: #c4698f;
-}
-
-.bg-marriage-mount {
-  background-color: #997a8d;
-}
-
-.bg-marriage-black {
-  background-color: #2d241e;
-}
-
-/* Header Parallax Element Style*/
 .paral {
-  min-height: 600px;
   background-attachment: fixed;
   background-size: cover;
-  /* background-position: 20% -10%; */
 }
-
-/* Paragrapgh for Parallax Section */
-.paral p {
-  font-size: 24px;
-  color: #f5f5f5;
-  text-align: center;
-  line-height: 60px;
-}
-
-/* Heading for Parallax Section */
-.paral h1 {
-  text-align: center;
-  line-height: 100px;
-}
-
-.main-h1-size {
-  color: rgb(255, 255, 255);
-  font-size: 100px;
-  padding-top: 250px;
-}
-
-/* Image for Parallax Section */
-.paral-marriage {
-  background-image: url("../img/family2.jpeg");
-  min-height: 600px;
-  background-position: 20% -10%;
-}
-
-.paral-liste-cadeau {
-  background-image: url("../img/family.jpeg");
-  min-height: 350px;
-}
-.paralsec {
-  background-image: url("https://img.webnots.com/2017/05/parallax.jpg");
-}
-
-.paralsec1 {
-  background-image: url("https://img.webnots.com/2017/05/parallax1.jpg");
-}
-
-.paralsec2 {
-  background-image: url("img/venue/venue8.jpg");
-}
-
-/* Remove Bottom Margin from Jumbotron */
 .jumbotron {
   margin-bottom: 0;
 }
@@ -84,4 +21,54 @@ body {
 
 .wn-footer a:hover {
   text-decoration: underline;
+}
+
+.bg-marriage-balais {
+  background-color: #c4698f;
+}
+
+.welcome-tab {
+  background-image: url("../img/people/main.jpeg");
+  background-position: 20% -10%;
+  text-align: center;
+  min-height: 600px;
+}
+.main-h1-size {
+  /* color: #2d241e; */
+  font-size: 100px;
+  font-family: "Neue Helvetica";
+}
+.acceuil-tab {
+  background-image: url("../img/bg/pink-bg.png");
+  min-height: 400px;
+  /* background-color: black; */
+}
+.marriage-tab {
+  background-image: url("../img/bg/white-bg.png");
+  min-height: 400px;
+}
+.program-tab {
+  background-image: url("../img/bg/pink-bg.png");
+  min-height: 400px;
+  /* background-color: black; */
+}
+.histoire-tab {
+  background-image: url("../img/bg/pink-bg.png");
+  min-height: 400px;
+}
+.message-tab {
+  background-image: url("../img/family2.jpeg");
+  min-height: 500px;
+}
+.lieu-tab {
+  background-image: url("../img/bg/white-bg.png");
+  min-height: 400px;
+}
+.liste-cadeaux-tab {
+  background-image: url("../img/bg/pink-bg.png");
+  min-height: 400px;
+}
+
+body {
+  font-family: "Neue Helvetica";
 }
