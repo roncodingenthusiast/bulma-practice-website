@@ -54,7 +54,8 @@
 }
 .histoire-tab {
   background-image: url("../img/bg/pink-bg.png");
-  min-height: 400px;
+  min-height: 300px;
+  background-position: 20% -10%;
 }
 .message-tab {
   background-image: url("../img/family2.jpeg");
@@ -71,6 +72,10 @@
 
 body {
   font-family: "Neue Helvetica";
+}
+
+.cursive-font {
+  font-family: cursive;
 }
 
 /* -----------------------------------------------
