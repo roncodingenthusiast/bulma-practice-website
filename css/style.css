@@ -29,9 +29,31 @@
 
 .welcome-tab {
   background-image: url("../img/people/main.jpeg");
-  background-position: 20% -15%;
+  background-position: 20% -30%;
   text-align: center;
   min-height: 600px;
+}
+@media only screen and (max-width: 600px) {
+  .welcome-tab {
+    background-image: url("../img/people/main.jpeg");
+    background-position: 20% 15%;
+    text-align: center;
+    min-height: 250px;
+    background-size: cover;
+  }
+
+  .paral {
+    background-attachment: fixed;
+    background-size: contain;
+  }
+
+  .lieu-tab {
+    background-image: url("../img/venue/venue8.jpg");
+    min-height: 200px;
+    color: white;
+    font-size: 20px;
+    font: 20px bold;
+  }
 }
 .main-h1-size {
   /* color: #2d241e; */
@@ -64,6 +86,9 @@
 .lieu-tab {
   background-image: url("../img/venue/venue8.jpg");
   min-height: 400px;
+  color: white;
+  font-size: 40px;
+  font: 40px bold;
 }
 .liste-cadeaux-tab {
   background-image: url("../img/bg/pink-bg.png");
