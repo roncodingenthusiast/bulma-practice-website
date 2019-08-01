@@ -32,10 +32,10 @@
   font-family: "Neue Helvetica";
 }
 .welcome-tab {
-  background-image: url("../img/people/main.jpeg");
-  background-position: 20% -30%;
+  background-image: url("../img/people/the-eyes.jpeg");
+  background-position: 10% 3%;
   text-align: center;
-  min-height: 600px;
+  min-height: 700px;
 }
 
 .acceuil-tab {
@@ -226,10 +226,10 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .welcome-tab {
-    background-image: url("../img/people/main.jpeg");
-    background-position: 20% 10%;
+    background-image: url("../img/people/the-eyes.jpeg");
+    background-position: 30% 0%;
     text-align: center;
-    min-height: 200px;
+    min-height: 300px;
     background-size: cover;
   }
 
