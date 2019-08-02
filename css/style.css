@@ -65,7 +65,7 @@
 .lieu-tab {
   background-image: url("../img/venue/venue8.jpg");
   min-height: 400px;
-  color: white;
+  /* color: white; */
   font-size: 40px;
   font: 40px bold;
 }
@@ -75,7 +75,7 @@
 }
 
 body {
-  font-family: "Neue Helvetica";
+  font-family: "Century Gothic, CenturyGothic, AppleGothic, sans-serif";
 }
 
 .cursive-font {
@@ -242,7 +242,7 @@ body {
   .lieu-tab {
     background-image: url("../img/venue/venue8.jpg");
     min-height: 200px;
-    color: white;
+    /* color: white; */
     font-size: 20px;
     font: 20px bold;
   }
