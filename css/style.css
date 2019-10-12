@@ -35,10 +35,10 @@
   font-family: "Neue Helvetica";
 }
 .welcome-tab {
-  background-image: url("../img/people/the-eyes.jpeg");
-  background-position: 10% 3%;
+  background-image: url("../img/people/thumbs.jpeg");
+  background-position: 20% 13%;
   text-align: center;
-  min-height: 700px;
+  min-height: 800px;
 }
 
 .acceuil-tab {
