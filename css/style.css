@@ -49,19 +49,24 @@
 .marriage-tab {
   background-image: url("../img/bg/white-bg.png");
   min-height: 400px;
+  font-family: "Century Gothic", "Neue Helvetica", CenturyGothic, AppleGothic, sans-serif;
+
 }
 .program-tab {
   background-image: url("../img/bg/pink-bg.png");
   min-height: 400px;
+  font-family: "Century Gothic", "Neue Helvetica", CenturyGothic, AppleGothic, sans-serif;
 }
 .histoire-tab {
   background-image: url("../img/bg/pink-bg.png");
   min-height: 300px;
   background-position: 20% -10%;
+  font-family: "Century Gothic", "Neue Helvetica", CenturyGothic, AppleGothic, sans-serif;
 }
 .message-tab {
   background-image: url("../img/family2.jpeg");
   min-height: 500px;
+  font-family: "Century Gothic", "Neue Helvetica", CenturyGothic, AppleGothic, sans-serif;
 }
 .lieu-tab {
   background-image: url("../img/bg/white-bg.png");
@@ -70,6 +75,7 @@
 .liste-cadeaux-tab {
   background-image: url("../img/bg/pink-bg.png");
   min-height: 400px;
+  font-family: "Century Gothic", "Neue Helvetica", CenturyGothic, AppleGothic, sans-serif;
 }
 
 body {
